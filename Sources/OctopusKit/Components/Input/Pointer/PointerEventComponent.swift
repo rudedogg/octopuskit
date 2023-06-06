@@ -177,7 +177,7 @@ public final class PointerEventComponent: OKComponent, RequiresUpdatesPerFrame {
 //            .first
 //    }
     
-    @available(*, unavailable, renamed: "latestEventForCurrentFrame")
+    @available(*, deprecated, renamed: "latestEventForCurrentFrame")
     public var latestEvent: PointerEvent? = nil // TODO: Remove in 4.0.0 :)
     
     /// Returns the last event received during this *or any previous* frames. To check the *latest* event received during the current frame, use `latestEventForCurrentFrame`.
